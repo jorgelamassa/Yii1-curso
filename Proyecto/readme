@@ -1,0 +1,43 @@
+/*==================================================================================================
+la carpeta protected. es como una especie  de sala de maquina,
+es donde esta la logica de nuestra aplicacion
+esta carpeta no tiene acceso por http de manera publica por el archivo .htacces
+/*==================================================================================================
+por ejemplo si tratamos de  ingresar 
+http://localhost/yii/Proyecto/protected
+nos dara este error
+¡Acceso prohibido!
+Usted no tiene permiso para acceder al objeto solicitado.
+ El objeto está protegido contra lectura o el servidor no puede leerlo.
+/*==================================================================================================
+ commands: esta seria para aplicaciones de terminal y de consola
+/*==================================================================================================
+ components todos los components que queremos redefinir de yii
+ ejemplo:decirle a yii que deje de usar un compemts y que use el q le idique
+/*==================================================================================================
+ config: dentro de main estara todo la config de nuestra app como ejemplo la bd
+/*==================================================================================================
+ controllers:  todos los controladores 
+/*==================================================================================================
+ data: archivos de bd que queremos de bd ejemplo backup
+ /*==================================================================================================
+ extensions: para guardar las extencines
+/*==================================================================================================
+ messages: mensajes de traducion de app
+/*==================================================================================================
+ migrations: gestion de version de una bd
+/*==================================================================================================
+ models: almacenar las clases de los modelos
+/*==================================================================================================
+ runtime: almacenaran los logs de la app y gestion de cache
+/*==================================================================================================
+ tests: realizar prueba unitarias y funcionales
+/*==================================================================================================
+ vendor: 
+/*==================================================================================================
+ views: para las vista de  nuestra app
+ /*==================================================================================================
+
+ yii es un framewor basado en componestes 
+ 
+ 
